@@ -8,6 +8,7 @@
     </head>
     <body>
         <h1>Мои статьи</h1>
+        <a hrev="newarticle">Новая статья</a>
         <c:forEach var="article" items="${listArticles}">
             <p>
                 ${article.tytle}<br>
